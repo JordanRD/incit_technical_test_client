@@ -28,4 +28,4 @@ npm install
 ## Additional Notes
 
 Deployed Version
-[https://https://technical-test-incit.netlify.app](https://https://technical-test-incit.netlify.app)
+[https://technical-test-incit.netlify.app](https://technical-test-incit.netlify.app)
