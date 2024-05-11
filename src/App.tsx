@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import {  HashRouter } from "react-router-dom";
 import Routes from "./Routes";
 import { ToastContainer } from "react-toastify";
 
@@ -8,7 +8,7 @@ import GlobalLoading from "./components/GlobalLoading";
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <ToastContainer
                 pauseOnFocusLoss={false}
                 // limit={3}
@@ -19,7 +19,7 @@ function App() {
             <GlobalLoading/>
             <Authenticator />
             <Routes />
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
