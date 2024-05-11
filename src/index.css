@@ -1,0 +1,20 @@
+@import "./styles/components.css";
+@import "./styles/layout.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+#root {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    @apply w-2 bg-white h-2;
+}
+::-webkit-scrollbar-thumb {
+    @apply bg-neutral-600;
+}

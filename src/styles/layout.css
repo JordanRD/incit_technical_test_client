@@ -1,0 +1,5 @@
+@layer base {
+    .page-container  {
+        @apply w-full h-full;
+    }
+}
